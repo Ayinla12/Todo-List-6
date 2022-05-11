@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #352f5b;
+}
+
+.container{
+    margin: 30px auto;
+    max-width: 400px;
+    text-align: center;
+    
+
+}
+
+h2{
+    color: #fff;
+}
+
+input[type=text], input[type=text]:focus{
+    margin: 10px 0;
+    color: #fff;
+    padding: 10px;
+    width: 400px;
+    border: 0;
+    border-radius: 4px;
+    background:#222 ;
+}
+
+ul{
+    list-style: none;
+    border-radius: 4px;
+    width: 400px;
+    padding: 0;
+
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    background: #423a6f;
+    color: #fff;
+    border-bottom: 1px solid #352f5b;
+    width: 400px;
+    padding: 10px;
+    
+}
+
+.delete{
+    cursor: pointer;
+}
+
+label{
+    color: #fff;
+}
